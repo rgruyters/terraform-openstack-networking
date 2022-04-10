@@ -1,9 +1,9 @@
-# OpenStack VPC Terraform Module
+# OpenStack Networking Terraform Module
 ## Usage
 
 ```hcl
-module "vpc" {
-  source              = "./modules/terraform-openstack-modules/terraform-openstack-vpc"
+module "networking" {
+  source              = "./modules/terraform-openstack-modules/terraform-openstack-networking"
   name                = "my-vpc"
   cidr                = "192.168.0.0/24"
   public_network_name = "public"
